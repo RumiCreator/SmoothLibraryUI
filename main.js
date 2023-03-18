@@ -13,8 +13,8 @@ SmoothLibrary.createDialog = function(title, text, status){
     `);
     
     div.style.backgroundColor = "rgb(60, 60, 60)";
-    div.style.width  = "100px";
-    div.style.height = "50px";
+    div.style.width  = "30%";
+    div.style.height = "20%";
     div.style.top = "50%";
     div.style.left = "50%";
     document.body.appendChild(div);
