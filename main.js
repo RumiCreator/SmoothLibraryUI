@@ -16,9 +16,8 @@ SmoothLibrary.createDialog = function(title, text, status){
     div.style.width  = "30%";
     div.style.height = "20%";
     div.style.position = "absolute";
-    div.style.top = "50%";
-    div.style.left = "50%";
-    div.style.right = "50%";
+    div.style.marginLeft = window.innerWidth/2 - div.clientWidth/2 + "px";
+    div.style.marginTop = window.innerHeight/2 - div.clientHeight/2 + "px";
     document.body.appendChild(div);
     
     resolve(div);
