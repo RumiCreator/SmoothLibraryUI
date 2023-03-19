@@ -46,7 +46,7 @@ SmoothLibrary.createWindow = function(title){
     Reposition = (() => {
       if (SmoothLibrary.WindowAmounts && SmoothLibrary.WindowAmounts >= 1) {
         div.style.top = (SmoothLibrary.WindowAmounts * 8) + "px";
-        div.style.left = (SmoothLibrary.WindowAmounts / 2);
+        div.style.left = (SmoothLibrary.WindowAmounts / 2) + "px";
       } else if (SmoothLibrary.WindowAmounts == null) {
         SmoothLibrary.WindowAmounts;
         // Defines Windows
